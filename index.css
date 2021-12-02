@@ -59,8 +59,13 @@ h2,
 .creator img {
     width: 15%;
     height: 100%;
-    border-color: white;
     margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.name {
+    text-decoration: none;
 }
 
 
