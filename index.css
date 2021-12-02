@@ -1,0 +1,66 @@
+/*  Reset   */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+body {
+    margin: 0;
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2,
+.name {
+    color: #fff;;
+}
+
+/*  styling  */
+
+.card {
+    max-width: 375px;
+    margin: 0 auto;
+    width: 90%;
+    background: hsl(216, 50%, 16%);
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: hsl(215, 51%, 70%) 1px solid;
+}
+
+.ETH {
+    color: hsl(178, 100%, 50%);
+}
+
+.creator {
+    display: flex;
+    padding-top: 15px;
+}
+
+.creator img {
+    width: 15%;
+    height: 100%;
+    border-color: white;
+    margin-right: 20px;
+}
+
+
